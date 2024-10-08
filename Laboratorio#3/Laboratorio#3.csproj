@@ -53,17 +53,27 @@
     <Compile Include="CuentaBank.Designer.cs">
       <DependentUpon>CuentaBank.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmProblema2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProblema2.Designer.cs">
+      <DependentUpon>FrmProblema2.cs</DependentUpon>
+    </Compile>
     <Compile Include="MDI.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MDI.Designer.cs">
       <DependentUpon>MDI.cs</DependentUpon>
     </Compile>
+    <Compile Include="MetodosGenerales.cs" />
     <Compile Include="ProcesosBancarios.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CuentaBank.resx">
       <DependentUpon>CuentaBank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProblema2.resx">
+      <DependentUpon>FrmProblema2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MDI.resx">
       <DependentUpon>MDI.cs</DependentUpon>
