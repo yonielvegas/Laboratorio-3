@@ -16,5 +16,13 @@ namespace Laboratorio_3
         {
             InitializeComponent();
         }
+
+        private void cuentaBancariaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CuentaBank frm = new CuentaBank();
+            frm.MdiParent = this;
+            frm.WindowState = FormWindowState.Maximized;
+            frm.Show();
+        }
     }
 }
