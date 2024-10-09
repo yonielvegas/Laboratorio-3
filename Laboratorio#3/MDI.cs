@@ -32,5 +32,13 @@ namespace Laboratorio_3
             obj2.WindowState = FormWindowState.Maximized;
             obj2.Show();
         }
+
+        private void problema3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmVentas obj2 = new FrmVentas();
+            obj2.MdiParent = this;
+            obj2.WindowState = FormWindowState.Maximized;
+            obj2.Show();
+        }
     }
 }

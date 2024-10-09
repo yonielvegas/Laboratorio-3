@@ -59,6 +59,12 @@
     <Compile Include="FrmProblema2.Designer.cs">
       <DependentUpon>FrmProblema2.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVentas.Designer.cs">
+      <DependentUpon>FrmVentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="MDI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,11 +75,15 @@
     <Compile Include="ProcesosBancarios.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ventas.cs" />
     <EmbeddedResource Include="CuentaBank.resx">
       <DependentUpon>CuentaBank.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmProblema2.resx">
       <DependentUpon>FrmProblema2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVentas.resx">
+      <DependentUpon>FrmVentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MDI.resx">
       <DependentUpon>MDI.cs</DependentUpon>

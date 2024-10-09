@@ -46,39 +46,40 @@
             this.problema3ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1229, 45);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(922, 38);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // cuentaBancariaToolStripMenuItem
             // 
             this.cuentaBancariaToolStripMenuItem.Name = "cuentaBancariaToolStripMenuItem";
-            this.cuentaBancariaToolStripMenuItem.Size = new System.Drawing.Size(238, 41);
+            this.cuentaBancariaToolStripMenuItem.Size = new System.Drawing.Size(183, 34);
             this.cuentaBancariaToolStripMenuItem.Text = "Cuenta Bancaria";
             this.cuentaBancariaToolStripMenuItem.Click += new System.EventHandler(this.cuentaBancariaToolStripMenuItem_Click);
             // 
             // problema2ToolStripMenuItem
             // 
             this.problema2ToolStripMenuItem.Name = "problema2ToolStripMenuItem";
-            this.problema2ToolStripMenuItem.Size = new System.Drawing.Size(195, 41);
+            this.problema2ToolStripMenuItem.Size = new System.Drawing.Size(149, 34);
             this.problema2ToolStripMenuItem.Text = "Problema #2";
             this.problema2ToolStripMenuItem.Click += new System.EventHandler(this.problema2ToolStripMenuItem_Click);
             // 
             // problema3ToolStripMenuItem
             // 
             this.problema3ToolStripMenuItem.Name = "problema3ToolStripMenuItem";
-            this.problema3ToolStripMenuItem.Size = new System.Drawing.Size(188, 41);
+            this.problema3ToolStripMenuItem.Size = new System.Drawing.Size(143, 34);
             this.problema3ToolStripMenuItem.Text = "Problema#3";
+            this.problema3ToolStripMenuItem.Click += new System.EventHandler(this.problema3ToolStripMenuItem_Click);
             // 
             // MDI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1229, 800);
+            this.ClientSize = new System.Drawing.Size(922, 650);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.IsMdiContainer = true;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MDI";
             this.Text = "MDI";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
