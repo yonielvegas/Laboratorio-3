@@ -49,7 +49,7 @@
             // 
             this.lblVentas.AutoSize = true;
             this.lblVentas.Font = new System.Drawing.Font("Cambria", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVentas.Location = new System.Drawing.Point(72, 55);
+            this.lblVentas.Location = new System.Drawing.Point(72, 71);
             this.lblVentas.Name = "lblVentas";
             this.lblVentas.Size = new System.Drawing.Size(329, 25);
             this.lblVentas.TabIndex = 3;
